@@ -1,8 +1,8 @@
 import Image from "next/image"
-import style from './Section.module.css'
+import style from './Main.module.css'
 import Button from "../Button"
 
-function Section ({imgUrl, text}) {
+function Main ({imgUrl, text}) {
     return(
         <>
             <div className={style.container}>
@@ -17,4 +17,4 @@ function Section ({imgUrl, text}) {
     )
 }
 
-export default Section
+export default Main

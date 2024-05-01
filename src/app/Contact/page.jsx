@@ -1,7 +1,7 @@
 import Header from "@/components/Header"
 import style from './Contact.module.css'
 import Button from "@/components/Button"
-import Section from "@/components/Section"
+import Main from "@/components/Section"
 import team from '../../../public/images/team.png'
 import Image from "next/image"
 
@@ -13,7 +13,7 @@ function Contact() {
         <section className={style.container}>
             <div className={style.title}>
                 <h2>PRENCHA O FORMULÁRIO PARA FALAR COM NOSSO TIME</h2>
-                <Image src={team} alt='equipe' width='700' height='400'></Image>
+                <Image src={team} alt='equipe' width='700' height='400' className={style.img}></Image>
             </div>
             <div className={style.form}>
                 <div className={style.list}>

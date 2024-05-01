@@ -1,7 +1,7 @@
 import {Fahkwang} from 'next/font/google'
 import Header from "@/components/Header";
 import "./globals.css";
-import Section from '@/components/Section';
+import Main from '@/components/Section';
 import influencer from '../../public/images/influencer.png'
 import Home from './page';
 
