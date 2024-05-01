@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.container h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5em;
+}
+
+.buttonContainer {
+    margin-top: 1em;
+    margin-right: 5em;
+}

@@ -1,6 +1,9 @@
 import {Fahkwang} from 'next/font/google'
 import Header from "@/components/Header";
 import "./globals.css";
+import Section from '@/components/Section';
+import influencer from '../../public/images/influencer.png'
+import Home from './page';
 
 const fahkwang = Fahkwang ({
   weight: ['400', '500'],
@@ -17,7 +20,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br" className={fahkwang.className}>
       <body>
-        <Header/>
         {children}
       </body>
     </html>

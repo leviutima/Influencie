@@ -1,4 +1,11 @@
 .button {
-    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 8vw;
+    height: 5vh;
+    background-color: #9BB0C1;
     cursor: pointer;
 }
