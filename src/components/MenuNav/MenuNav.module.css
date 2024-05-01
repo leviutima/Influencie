@@ -1,5 +1,6 @@
 .menu {
     display: flex;
-    gap: 23px;
+    gap: 50px;
     list-style: none;
+    cursor: pointer;
 }

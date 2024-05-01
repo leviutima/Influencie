@@ -1,5 +1,12 @@
+import {Fahkwang} from 'next/font/google'
 import Header from "@/components/Header";
 import "./globals.css";
+
+const fahkwang = Fahkwang ({
+  weight: ['400', '500'],
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export const metadata = {
   title: "influencie",
@@ -8,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className={fahkwang.className}>
       <body>
         <Header/>
         {children}
