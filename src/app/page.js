@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Home from "./Home/page";
+import Home from "./home/page";
 
 export default function Page() {
   return (

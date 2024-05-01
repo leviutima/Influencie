@@ -6,6 +6,10 @@
     border-radius: 10px;
     width: 8vw;
     height: 5vh;
-    background-color: #9BB0C1;
+    background: radial-gradient(circle, #000000, #333333);
     cursor: pointer;
+}
+
+.button:hover{
+    background: #413F42;
 }
